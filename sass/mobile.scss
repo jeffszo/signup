@@ -1,0 +1,16 @@
+@media screen and (max-width: 425px){
+    .container-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0 1.5rem;
+    }
+    #btn{
+        width: 390px;
+        height: auto;
+        padding: 0;
+    }
+}

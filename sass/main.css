@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0deg, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container-main .container {
+  padding: 0 3rem 0 0;
+  width: 510px;
+}
+.container-main .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  color: white;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.2;
+}
+.container-main .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+}
+.container-main .container-two {
+  width: 510px;
+}
+.container-main .container-two .try-free {
+  width: 420px;
+  margin: 0 0 0.7rem 0;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(248deg, 32%, 49%);
+  text-align: center;
+  cursor: pointer;
+}
+.container-main .container-two .try-free p,
+.container-main .container-two .try-free strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.container-main .container-two .form {
+  width: 420px;
+  background-color: white;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+}
+.container-main .container-two .form .form-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-main .container-two .form .form-2 input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  padding: 0.8rem;
+  width: 370px;
+}
+.container-main .container-two .form .form-2 input input:focus {
+  border-color: hsl(246deg, 25%, 77%);
+}
+.container-main .container-two .form #btn {
+  border: none;
+  margin: 0.6rem 0;
+  padding: 0.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background-color: hsl(154deg, 59%, 51%);
+}
+.container-main .container-two .form p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.8;
+}
+.container-main .container-two .form p span {
+  color: hsl(0deg, 100%, 74%);
+}
+
+@media screen and (max-width: 425px) {
+  .container-main {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */
